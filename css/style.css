@@ -1,0 +1,47 @@
+/* main.css --- Simple Description */
+/* Full Description */
+
+/* Author: Mike Barker <mike@thebarkers.com> */
+/* Created: October 22, 2015 */
+
+/* History: */
+/* 2015.10.22 */
+/* * First release. */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* margin-bottom = footer->height */
+    margin: 0 0 30px;
+}
+main {
+    padding-left: 5;
+}
+header, footer {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px black;
+}
+header h1, header p {
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+footer p {
+    margin: 0;
+    padding-top: 5px;
+}
