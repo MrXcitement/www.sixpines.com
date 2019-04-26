@@ -20,8 +20,9 @@ body {
 }
 
 main {
-    padding-left: 5;
-    padding-right: 5;
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
 }
 
 header, footer {
